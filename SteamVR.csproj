@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EBD13A71-354A-8F44-8A9A-DAC08D5BAC24}</ProjectGuid>
+    <ProjectGuid>{7490771B-29D1-4F4E-20B7-9A8C86C25DD6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR</AssemblyName>
@@ -242,10 +242,10 @@
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Samples\Squishy\SquishyDeform.shader" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -437,7 +437,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -787,7 +787,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{94CC4CF1-B0D9-82C5-1DCC-A2DFA8D1B816}</Project>
+      <Project>{8FF59199-80CD-755E-EAC0-DE7B51E2A5E8}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>

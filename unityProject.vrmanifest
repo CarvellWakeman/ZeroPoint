@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.zeropoint.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\Zach\\Desktop\\Git\\Unity\\zeropoint\\Zero Point\\actions.json",
+      "action_manifest_path": "C:\\Users\\Zach\\Desktop\\Git\\Unity\\zeropoint\\ZeroPoint\\actions.json",
       "strings": {
         "en_us": {
           "name": "Zero Point [Testing]"
