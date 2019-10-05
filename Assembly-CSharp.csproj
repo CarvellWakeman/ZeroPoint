@@ -56,6 +56,7 @@
      <Compile Include="Assets\ZeroPoint\Interaction\Scripts\AimAt.cs" />
      <Compile Include="Assets\ZeroPoint\Interaction\Scripts\GrabPoint.cs" />
      <Compile Include="Assets\ZeroPoint\Interaction\Scripts\MultiGrabbable.cs" />
+     <None Include="Assets\VRTK\Dependencies\Zinnia.Unity\Dependencies\FodyWeavers.xml" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -274,6 +275,21 @@
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
  <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Malimbe.PropertySerializationAttribute">
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.PropertySerializationAttribute.dll</HintPath>
+ </Reference>
+ <Reference Include="Malimbe.MemberChangeMethod">
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.MemberChangeMethod.dll</HintPath>
+ </Reference>
+ <Reference Include="Malimbe.MemberClearanceMethod">
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.MemberClearanceMethod.dll</HintPath>
+ </Reference>
+ <Reference Include="Malimbe.BehaviourStateRequirementMethod">
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
+ </Reference>
+ <Reference Include="Malimbe.XmlDocumentationAttribute">
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.XmlDocumentationAttribute.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -641,6 +657,30 @@
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{8FF59199-80CD-755E-EAC0-DE7B51E2A5E8}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="Supyrb.Editor.csproj">
+      <Project>{75983CA5-0573-A97B-5DFA-CE65308C3C98}</Project>
+      <Name>Supyrb.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRTK.Prefabs.Runtime.csproj">
+      <Project>{6562497E-0BC8-F070-8028-97A83339CCBD}</Project>
+      <Name>VRTK.Prefabs.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRTK.Samples.Farm.Editor.csproj">
+      <Project>{99E2F55F-C552-21D3-F4FE-D421A5EE1E2E}</Project>
+      <Name>VRTK.Samples.Farm.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRTK.Samples.Farm.Runtime.csproj">
+      <Project>{0C1F61CE-5073-F0D7-C941-9C14C85F1DB1}</Project>
+      <Name>VRTK.Samples.Farm.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zinnia.Editor.csproj">
+      <Project>{55AFFE75-A215-D2AD-1BE0-0ADE16F6FDA3}</Project>
+      <Name>Zinnia.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zinnia.Runtime.csproj">
+      <Project>{237F2433-A2C1-76DB-3212-81A5979C2EF8}</Project>
+      <Name>Zinnia.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

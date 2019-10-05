@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BDECA0B0-5228-1DEA-1B1C-4F3FABF4FB88}</ProjectGuid>
+    <ProjectGuid>{6562497E-0BC8-F070-8028-97A83339CCBD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VRTK.Prefabs.Runtime</AssemblyName>
@@ -107,8 +107,11 @@
      <Compile Include="Assets\VRTK\Prefabs\Interactions\Interactables\SharedResources\Scripts\InteractableConsumerRigidbodyExtractor.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Interactions\Interactables\SharedResources\Scripts\InteractableFacade.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Interactions\Interactables\SharedResources\Scripts\InteractableFacadeEventProxyEmitter.cs" />
+     <Compile Include="Assets\VRTK\Prefabs\Interactions\Interactables\SharedResources\Scripts\InteractableFacadeExtractor.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Interactions\Interactables\SharedResources\Scripts\InteractablePropertyCache.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Interactions\Interactables\SharedResources\Scripts\Touch\TouchInteractableConfigurator.cs" />
+     <Compile Include="Assets\VRTK\Prefabs\Interactions\InteractableSnapZone\SharedResources\Scripts\ActivationValidator.cs" />
+     <Compile Include="Assets\VRTK\Prefabs\Interactions\InteractableSnapZone\SharedResources\Scripts\SnapZoneActivator.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Interactions\InteractableSnapZone\SharedResources\Scripts\SnapZoneConfigurator.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Interactions\InteractableSnapZone\SharedResources\Scripts\SnapZoneFacade.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Interactions\Interactors\SharedResources\Scripts\ActionInteractorConfigurator.cs" />
@@ -141,6 +144,11 @@
      <Compile Include="Assets\VRTK\Prefabs\Locomotion\Movement\Climb\SharedResources\Scripts\ClimbVelocityApplier.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Locomotion\Movement\MovementAmplifier\SharedResources\Scripts\MovementAmplifierConfigurator.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Locomotion\Movement\MovementAmplifier\SharedResources\Scripts\MovementAmplifierFacade.cs" />
+     <Compile Include="Assets\VRTK\Prefabs\Locomotion\Movement\SpatialManipulation\SharedResources\Scripts\PositionManipulator.cs" />
+     <Compile Include="Assets\VRTK\Prefabs\Locomotion\Movement\SpatialManipulation\SharedResources\Scripts\RotationManipulator.cs" />
+     <Compile Include="Assets\VRTK\Prefabs\Locomotion\Movement\SpatialManipulation\SharedResources\Scripts\ScaleManipulator.cs" />
+     <Compile Include="Assets\VRTK\Prefabs\Locomotion\Movement\SpatialManipulation\SharedResources\Scripts\SpatialManipulator.cs" />
+     <Compile Include="Assets\VRTK\Prefabs\Locomotion\Movement\SpatialManipulation\SharedResources\Scripts\SpatialManipulatorFacade.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Locomotion\Teleporters\SharedResources\Scripts\TeleporterConfigurator.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Locomotion\Teleporters\SharedResources\Scripts\TeleporterFacade.cs" />
      <Compile Include="Assets\VRTK\Prefabs\Pointers\SharedResources\Scripts\PointerConfigurator.cs" />
@@ -154,10 +162,10 @@
      <None Include="Assets\VRTK\Prefabs\FodyWeavers.xml" />
      <None Include="Assets\VRTK\Prefabs\SharedResources\Shaders\VertexLit_Color.shader" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -349,19 +357,19 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Malimbe.BehaviourStateRequirementMethod">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
  </Reference>
  <Reference Include="Malimbe.MemberChangeMethod">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.MemberChangeMethod.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.MemberChangeMethod.dll</HintPath>
  </Reference>
  <Reference Include="Malimbe.MemberClearanceMethod">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.MemberClearanceMethod.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.MemberClearanceMethod.dll</HintPath>
  </Reference>
  <Reference Include="Malimbe.PropertySerializationAttribute">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.PropertySerializationAttribute.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.PropertySerializationAttribute.dll</HintPath>
  </Reference>
  <Reference Include="Malimbe.XmlDocumentationAttribute">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.XmlDocumentationAttribute.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Assets/VRTK/Dependencies/Zinnia.Unity/Dependencies/Malimbe/Runtime/Malimbe.XmlDocumentationAttribute.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -711,7 +719,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Zinnia.Runtime.csproj">
-      <Project>{538B3222-1531-4448-EA7F-4B5CDCB71C16}</Project>
+      <Project>{237F2433-A2C1-76DB-3212-81A5979C2EF8}</Project>
       <Name>Zinnia.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

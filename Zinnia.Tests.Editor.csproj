@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{73684B3D-6D0A-6D62-7672-408233069882}</ProjectGuid>
+    <ProjectGuid>{A110323C-4456-B787-BA86-6853853131CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Zinnia.Tests.Editor</AssemblyName>
@@ -184,16 +184,16 @@
      <Compile Include="Assets\VRTK\Dependencies\Zinnia.Unity\Tests\Editor\Visual\CameraColorOverlayTest.cs" />
      <Compile Include="Assets\VRTK\Dependencies\Zinnia.Unity\Tests\Editor\Visual\PointsRendererTest.cs" />
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -373,7 +373,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/Zero Point/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/Zach/Desktop/Git/Unity/zeropoint/ZeroPoint/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -723,15 +723,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Zinnia.Runtime.csproj">
-      <Project>{538B3222-1531-4448-EA7F-4B5CDCB71C16}</Project>
+      <Project>{237F2433-A2C1-76DB-3212-81A5979C2EF8}</Project>
       <Name>Zinnia.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Zinnia.Editor.csproj">
-      <Project>{8B29459C-E3F3-2A56-7426-9CD72CA7A371}</Project>
+      <Project>{55AFFE75-A215-D2AD-1BE0-0ADE16F6FDA3}</Project>
       <Name>Zinnia.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Zinnia.Tests.Utility.csproj">
-      <Project>{20E13F40-483F-CFDB-BACA-8035779759C5}</Project>
+      <Project>{59289175-6F69-662E-F96D-C633D9DF51BD}</Project>
       <Name>Zinnia.Tests.Utility</Name>
     </ProjectReference>
   </ItemGroup>
